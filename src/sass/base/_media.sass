@@ -1,9 +1,25 @@
+@media screen and ( max-width: 1200px )
+    .phone__wrapper
+        justify-content: space-between
+        flex-wrap: wrap
+    .phone__items
+        width: 50%
+    .flex-items
+        width: 100%
+        margin-top: 20px
+        display: flex
+    .phone__item
+        margin-top: 20px
 @media screen and ( max-width: 992px )
     .features__wrapper
         grid-template-columns: 1fr 1fr
     .features__item
         margin-top: 15px
-    
+    .phone__photo
+        width: 40%
+        margin: 0
+    .phone__wrapper
+        
     
 @media screen and ( max-width: 767px )
     .header__navigation
@@ -14,7 +30,13 @@
         font-size: 35px
     .features__wrapper
         grid-template-columns: 1fr
-    
+    .phone__photo
+        display: none
+    .phone__items
+        width: 100%
+    .flex-items
+        display: block
+        
 
 @media screen and ( max-width: 480px )
     .promo__title
@@ -23,3 +45,4 @@
         font-size: 25px
     .promo__information span
         font-size: 14px
+   
