@@ -32,21 +32,25 @@
 
 .gallery
     margin-top: 78px
-    min-height: 450px
     position: relative
-    overflow: hidden
     &__content
+        // position: absolute
+        // top: 0
+        // right: -100%
+        // width: 100%
+        // display: grid
+        // grid-template-columns: 1fr 1fr 1fr 1fr
+        // transition: .5s all
+        // z-index: 1
         position: absolute
         top: 0
-        right: -100%
-        width: 100%
+        right: 0
+        width: 0%
         display: grid
         grid-template-columns: 1fr 1fr 1fr 1fr
         transition: .5s all
-        z-index: 1
         &-active
-            right: 0
-            width: 100%            
+            width: 100%
     &__item
         position: relative
         &-img

@@ -18,7 +18,16 @@
     .phone__photo
         width: 40%
         margin: 0
-    .phone__wrapper
+    .works__subtitle
+        width: 50%
+        margin: 45px auto 0 auto
+    .gallery__content
+        grid-template-columns: 1fr 1fr 1fr
+        column-gap: 20px
+    .gallery__item-img img
+        border-radius: 10px
+    .gallery__item 
+        margin-top: 10px
         
     
 @media screen and ( max-width: 767px )
@@ -36,6 +45,14 @@
         width: 100%
     .flex-items
         display: block
+    .works__subtitle
+        width: 80%
+    .title h2
+        font-size: 20px
+    .gallery__content
+        grid-template-columns: 1fr 1fr
+    .works__tabs
+        flex-wrap: wrap
         
 
 @media screen and ( max-width: 480px )
@@ -45,4 +62,6 @@
         font-size: 25px
     .promo__information span
         font-size: 14px
-   
+    .gallery__content
+        grid-template-columns: 1fr
+        padding: 0 10px
