@@ -10,6 +10,8 @@
         display: flex
     .phone__item
         margin-top: 20px
+
+
 @media screen and ( max-width: 992px )
     .features__wrapper
         grid-template-columns: 1fr 1fr
@@ -18,7 +20,7 @@
     .phone__photo
         width: 40%
         margin: 0
-    .works__subtitle
+    .subtitle
         width: 50%
         margin: 45px auto 0 auto
     .gallery__content
@@ -28,6 +30,11 @@
         border-radius: 10px
     .gallery__item 
         margin-top: 10px
+    .team__wrapper
+        grid-template-columns: 1fr 1fr 
+        column-gap: 30px
+    .team__card
+        margin-top: 20px
         
     
 @media screen and ( max-width: 767px )
@@ -45,7 +52,7 @@
         width: 100%
     .flex-items
         display: block
-    .works__subtitle
+    .subtitle
         width: 80%
     .title h2
         font-size: 20px
@@ -53,6 +60,8 @@
         grid-template-columns: 1fr 1fr
     .works__tabs
         flex-wrap: wrap
+    .team__wrapper
+        grid-template-columns: 1fr 
         
 
 @media screen and ( max-width: 480px )
