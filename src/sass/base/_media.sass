@@ -35,6 +35,16 @@
         column-gap: 30px
     .team__card
         margin-top: 20px
+    .discuss__wrapper
+        grid-template-columns: 3fr
+    .discuss__contacts
+        h5
+            text-align: center
+        p
+            margin-top: 15px
+            text-align: center
+    .discuss__form
+        margin-top: 20px
         
     
 @media screen and ( max-width: 767px )
@@ -66,6 +76,27 @@
         grid-template-columns: 1fr 1fr
     .facts__card
         margin-top: 20px 
+    .discuss__form
+        h4
+            margin: 0 auto
+    .discuss__feedback
+        flex-direction: column
+        textarea
+            width: 80%
+            margin: 20px auto 0 auto
+    .discuss__form-wrapper
+        flex-wrap: wrap
+        input
+            width: 80%
+            margin: 20px auto 0 auto
+            &:first-child
+                margin-top: 0
+    .discuss__form-submit
+        justify-content: center
+    .discuss__social
+        flex-direction: row
+        margin: 40px 0 0 0 
+
         
 
 @media screen and ( max-width: 480px )
@@ -82,3 +113,5 @@
         grid-template-columns: 1fr
     .facts__card span
         font-size: 30px
+    .discuss__contacts
+        display: none
