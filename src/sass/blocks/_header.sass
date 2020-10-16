@@ -2,8 +2,11 @@
     background-color: rgba(16, 22, 54, 0.3)
     &__wrapper
         display: flex
+        flex-wrap: wrap
         justify-content: space-between
+        align-items: center
         padding: 25px 0 18px 0
+        position: relative
     &__logo
         color: #ffffff
         font-family: "Lato"
@@ -15,6 +18,7 @@
             color: #ffffff
             text-decoration: none
     &__navigation
+        transition: .5s all
         a
             color: #ffffff
             font-family: "Lato"
@@ -22,8 +26,11 @@
             font-weight: 400
             letter-spacing: 0.81px
             margin-right: 20px
+            padding-bottom: 10px
+            transition: .2s ease
             &:last-child
                 margin-right: 0px
             &:hover
                 color: #fff
                 text-decoration: none
+                border-bottom: 2px solid $main-color
