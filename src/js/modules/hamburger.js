@@ -1,6 +1,6 @@
 function hamburger(hamburgerSelector, menuSelector){
     const hamburgerBtn = document.querySelector(hamburgerSelector);
-    let menu = document.querySelector(menuSelector);
+    let menu = document.querySelector(menuSelector)
     let isMenuOpen = false;
     hamburgerBtn.addEventListener("click", () => {
         if (!isMenuOpen) {
